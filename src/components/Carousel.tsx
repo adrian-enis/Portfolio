@@ -5,6 +5,8 @@ export const Carousel = () => {
 
     /* Carousel */
 
-    <div>Carousel</div>
+    <div>
+      
+    </div>
   )
 }

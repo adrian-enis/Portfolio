@@ -7,7 +7,7 @@ import image4 from "../img/image4.jpg";
 import image5 from "../img/image5.jpg";
 const Home = () => {
   return (
-    <section className="bg-green-900 h-[100vh] w-[100vw] relative mt-[-50px] overflow-hidden">
+    <section className=" h-[100vh] w-[100vw] relative mt-[-50px] overflow-hidden">
       {/* Carousel */}
       <div id="stars"></div>
       <div id="stars2"></div>
@@ -52,7 +52,6 @@ const Home = () => {
               </button>
             </div>
           </div>
-          
         </article>
 
         <article className="absolute inset-0">
@@ -91,7 +90,6 @@ const Home = () => {
               </button>
             </div>
           </div>
-          
         </article>
 
         <article className="absolute inset-0">
@@ -130,7 +128,6 @@ const Home = () => {
               </button>
             </div>
           </div>
-          
         </article>
 
         <article className="absolute inset-0">
@@ -169,7 +166,6 @@ const Home = () => {
               </button>
             </div>
           </div>
-          
         </article>
 
         <article className="absolute inset-0">
@@ -208,14 +204,13 @@ const Home = () => {
               </button>
             </div>
           </div>
-          
         </article>
       </section>
 
       {/* Thumbnail */}
-      <section className="absolute z-50 bottom-14  left-[50%] bg-red-400 w-max flex gap-5">
+      <section className="absolute z-50 bottom-14  left-[50%] w-max flex gap-5">
         {/* Item */}
-        <article className="bg-white w-[150px] h-[220px] relative flex-shrink-0 overflow-hidden">
+        <article className="bg-white w-[150px] h-[220px] relative flex-shrink-0 overflow-hidden rounded-3xl">
           <img
             src={image1}
             className="h-[100%] w-[100%] object-cover blur-md "
@@ -227,7 +222,7 @@ const Home = () => {
             <p>description</p>
           </div>
         </article>
-        <article className="bg-white w-[150px] h-[220px] relative flex-shrink-0 overflow-hidden">
+        <article className="bg-white w-[150px] h-[220px] relative flex-shrink-0 overflow-hidden rounded-3xl">
           <img
             src={image2}
             className="h-[100%] w-[100%] object-cover blur-md "
@@ -239,7 +234,7 @@ const Home = () => {
             <p>description</p>
           </div>
         </article>
-        <article className="bg-white w-[150px] h-[220px] relative flex-shrink-0 overflow-hidden">
+        <article className="bg-white w-[150px] h-[220px] relative flex-shrink-0 overflow-hidden rounded-3xl">
           <img
             src={image3}
             className="h-[100%] w-[100%] object-cover blur-md "
@@ -251,7 +246,7 @@ const Home = () => {
             <p>description</p>
           </div>
         </article>
-        <article className="bg-white w-[150px] h-[220px] relative flex-shrink-0 overflow-hidden">
+        <article className="bg-white w-[150px] h-[220px] relative flex-shrink-0 overflow-hidden rounded-3xl">
           <img
             src={image4}
             className="h-[100%] w-[100%] object-cover blur-md "
@@ -263,7 +258,7 @@ const Home = () => {
             <p>description</p>
           </div>
         </article>
-        <article className="bg-white w-[150px] h-[220px] relative flex-shrink-0 overflow-hidden">
+        <article className="bg-white w-[150px] h-[220px] relative flex-shrink-0 overflow-hidden rounded-3xl">
           <img
             src={image5}
             className="h-[100%] w-[100%] object-cover blur-md "
@@ -275,8 +270,42 @@ const Home = () => {
             <p>description</p>
           </div>
         </article>
-       
       </section>
+
+      <div className="bg-red-400 absolute flex items-center justify-center gap-5   top-[80%] right-[52%] w-[300px] max-w-[30%]">
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width={"1.5"}
+            stroke="currentColor"
+            className="size-6 bg-slate-400 h-10 w-10 p-2 rounded-full transition-all hover:bg-slate-500 "
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+            />
+          </svg>
+        </button>
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            className="size-6 bg-slate-400 h-10 w-10 p-2 rounded-full transition-all  hover:bg-slate-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+            />
+          </svg>
+        </button>
+      </div>
     </section>
   );
 };
