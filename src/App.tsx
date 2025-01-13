@@ -1,21 +1,18 @@
+import Header from "./components/Header";
+import Particle from "./utils/Particle";
 
-
-
-import Header from './components/Header'
-import Home from './components/Home'
-import { Carousel } from './components/Carousel'
 
 function App() {
-
-
   return (
-    <>
+    <div className="">
+      <Particle>
+        <Header/>
 
-      <Header/>
-      <Home/>
-      {/* <Carousel/> */}
-    </>
-  )
+      </Particle>
+  
+      
+    </div>
+  );
 }
 
-export default App
+export default App;
