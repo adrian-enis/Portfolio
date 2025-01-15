@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <section className="">
@@ -10,8 +12,9 @@ const Home = () => {
         </h3>
 
         <div className="flex justify-evenly mt-[1%]  w-[50%] m-auto">
-          <a href="#" className="text-3xl font-semibold text-blue-600">Linkedin</a>
-          <a href="#" className="text-3xl font-semibold text-white">Github</a>
+          <a target="_blank" href="https://www.linkedin.com/in/adrianenis/" className="text-3xl font-semibold text-blue-600">Linkedin</a>
+          <a target="_blank" href="https://github.com/adrian-enis" className="text-3xl font-semibold text-white">Github</a>
+        
         </div>
       </article>
 

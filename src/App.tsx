@@ -1,27 +1,26 @@
-
-import { Aboutme } from "./components/Aboutme";
-import { Carousel } from "./components/Carousel";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Header from "./components/Header";
-import Home from "./components/Home"
+import Home from "./components/Home";
+import {Aboutme} from "./components/Aboutme";
+import {Carousel} from "./components/Carousel";
 import Particle from "./utils/Particle";
-
 
 function App() {
   return (
-    <div className="">
+    <Router>
       <Particle>
-        <Header/>
-        <Home/>
-      <div className=" mt-[10rem]">
-        <Aboutme/>
-      </div>
-      </Particle>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutme" element={<Aboutme />} />
+          <Route path="/works" element={<Carousel />} />
+          <Route path="/linkedin" element={<Navigate to="https://www.linkedin.com/in/adrianenis/"/>} />
+          <Route path="/github" element={<Navigate to="https://github.com/adrian-enis"/>} />
   
-      <div className="relative z-10 h-[100vh] w-[100wh]">
-
-        <Carousel/>
-      </div>
-    </div>
+        </Routes>
+      </Particle>
+    </Router>
   );
 }
 
