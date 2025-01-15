@@ -4,8 +4,6 @@ export type WorkData = {
   name: string;
   title: string;
   description: string;
-  linkedin: string;
-  // github:string;
   netlify: string;
 };
 

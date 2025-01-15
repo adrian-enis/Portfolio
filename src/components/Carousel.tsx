@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { dataWorks, dataThumbnail } from "../data/dataBase";
 import { WorkData } from "../types";
 
