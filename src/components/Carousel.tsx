@@ -12,6 +12,14 @@ export const Carousel = () => {
     }, 6000);
     return () => clearInterval(interval);
   }, []);
+
+    const handlePrevClick = () => {
+        setCurrentIndex((prevIndex) => (prevIndex - 1 + dataWorks.length) % dataWorks.length)
+      }
+      const handleNextClick = () => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % dataWorks.length)
+      }
+ 
   return (
     <>
       {/* List */}
@@ -50,23 +58,13 @@ export const Carousel = () => {
               >
    
                   <a
-                  className="bg-green-700 p-3 rounded-lg"
+                  className="bg-yellow-500 p-3 rounded-lg"
                   type="button"
                     target="_blank"
                     rel="noopener noreferrer"
                     href={dataPrev.netlify}
                   >
                     Ver Mas
-                  </a>
-         
-               
-                  <a
-                    href={dataPrev.linkedin}
-                    className="bg-blue-600 p-3 rounded-lg"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Linkedin
                   </a>
               
               </div>
@@ -97,7 +95,7 @@ export const Carousel = () => {
       </section>
       {/* Buttons */}
       <div className="bg-red-400 absolute flex items-center justify-center gap-5   top-[80%] right-[52%] w-[300px] max-w-[30%]">
-        <button>
+        <button onClick={handlePrevClick}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -113,7 +111,7 @@ export const Carousel = () => {
             />
           </svg>
         </button>
-        <button>
+        <button onClick={handleNextClick}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
