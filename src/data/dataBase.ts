@@ -61,7 +61,7 @@ export const dataThumbnail: Thumbnail[] = [
   },
   {
     id: 3,
-    title: "Mercado Libre",
+    title: "Blog",
     image: "image3",
   },
   {
