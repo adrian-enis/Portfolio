@@ -5,17 +5,9 @@ export const Aboutme = () => {
         About Me
       </h2>
       <p className="text-justify text-lg">
-        Hi, I'm Adrian, a Front-End Developer with over four years of experience
-        in creating and optimizing digital platforms for e-commerce businesses.
-        My background combines academic knowledge with continuous learning in
-        key web development technologies. I specialize in designing modern,
-        efficient, and accessible interfaces using tools like React, TypeScript,
-        and TailwindCSS. I help companies achieve their goals by implementing
-        solutions that enhance user experience and optimize website performance.
-        From API integrations to load and performance optimization, my focus is
-        on boosting platform visibility on the web and ensuring smooth
-        navigation for users. I'm always seeking new challenges that allow me to
-        keep growing and bring value to innovative digital projects.
+        Soy un profesional del desarrollo de software con una trayectoria de más de 5 años enfocado en el sector del e-commerce. Mi carrera ha evolucionado desde roles especializados en frontend, donde perfeccioné la creación de interfaces de usuario interactivas y de alto impacto con React.js y TypeScript, hasta convertirme en un desarrollador Full-Stack capaz de diseñar y gestionar arquitecturas completas con el stack MERN y tecnologías de vanguardia como Next.js y Prisma.
+        Me especializo en transformar plataformas, migrando sistemas heredados a soluciones modernas que mejoran drásticamente el SEO, la velocidad de carga y la experiencia del usuario. Mi enfoque se centra en la calidad y la robustez del código, aplicando validación de datos de extremo a extremo y adoptando las mejores prácticas para garantizar la escalabilidad y mantenibilidad de los proyectos. Busco constantemente resolver problemas complejos, optimizar el rendimiento y colaborar en equipos que impulsan la innovación tecnológica.
+
       </p>
     </article>
   );
