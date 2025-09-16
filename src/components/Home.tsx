@@ -8,7 +8,7 @@ const Home = () => {
           Adrian Enis
         </h2>
         <h3 className="font-bold text-3xl text-yellow-500 md:text-5xl">
-          Front-End Developer
+          Full stack developer
         </h3>
 
         <div className="flex justify-evenly mt-[1%]  w-[50%] m-auto">
