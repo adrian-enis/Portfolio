@@ -5,9 +5,8 @@ export const Aboutme = () => {
         About Me
       </h2>
       <p className="text-justify text-lg">
-        Soy un profesional del desarrollo de software con una trayectoria de más de 5 años enfocado en el sector del e-commerce. Mi carrera ha evolucionado desde roles especializados en frontend, donde perfeccioné la creación de interfaces de usuario interactivas y de alto impacto con React.js y TypeScript, hasta convertirme en un desarrollador Full-Stack capaz de diseñar y gestionar arquitecturas completas con el stack MERN y tecnologías de vanguardia como Next.js y Prisma.
-        Me especializo en transformar plataformas, migrando sistemas heredados a soluciones modernas que mejoran drásticamente el SEO, la velocidad de carga y la experiencia del usuario. Mi enfoque se centra en la calidad y la robustez del código, aplicando validación de datos de extremo a extremo y adoptando las mejores prácticas para garantizar la escalabilidad y mantenibilidad de los proyectos. Busco constantemente resolver problemas complejos, optimizar el rendimiento y colaborar en equipos que impulsan la innovación tecnológica.
-
+        I am a software development professional with over five years of experience focused on the e-commerce sector. My career has evolved from specialized front-end roles, where I perfected the creation of high-impact, interactive user interfaces with React.js and TypeScript, to becoming a full-stack developer capable of designing and managing complete architectures with the MERN stack and cutting-edge technologies such as Next.js and Prisma.
+        I specialize in platform transformation, migrating legacy systems to modern solutions that dramatically improve SEO, load speed, and user experience. My focus is on code quality and robustness, applying end-to-end data validation and adopting best practices to ensure project scalability and maintainability. I constantly seek to solve complex problems, optimize performance, and collaborate on teams that drive technological innovation.
       </p>
     </article>
   );
